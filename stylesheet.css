@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+
+    #medium, #large {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    body {
+        background-color: green;
+    }
+
+    #small, #large {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+
+    body {
+        background-color: blue;
+    }
+
+    #small, #medium {
+        display: none;
+    }
+}
