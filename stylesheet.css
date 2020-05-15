@@ -73,12 +73,12 @@
 
     div {
         display: inline-block;
+        vertical-align: top;
     }
     body {
         background-color: blue;
         font-size: 35px;
     }
-
 
 
     .col-1 {
